@@ -5,28 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - My GitHub Page</title>
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; text-align: center; }
-        h1 { color: #333; }
-        .contact-info { margin: 20px 0; padding: 15px; border: 1px solid #ddd; background-color: #f9f9f9; display: inline-block; }
-        footer { margin-top: 30px; padding-top: 10px; border-top: 1px solid #ccc; font-size: 0.9em; }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            text-align: center;
+            background-color: #f7f9fc;
+            color: #2c3e50;
+        }
+        nav {
+            background-color: #3498db;
+            padding: 12px 0;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ecf0f1;
+        }
+        h1 {
+            color: #333;
+        }
+        .contact-info {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            display: inline-block;
+            border-radius: 8px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+        }
+        footer {
+            margin-top: 30px;
+            padding-top: 10px;
+            border-top: 1px solid #ccc;
+            font-size: 0.9em;
+            color: #555;
+        }
     </style>
 </head>
 <body>
+    <nav>
+        <a href="/">🏠 Home</a>
+        <a href="mailto:24f3005146@ds.study.iitm.ac.in">📧 Contact</a>
+    </nav>
+
     <header>
         <h1>Welcome to My GitHub Pages Site!</h1>
     </header>
+
     <main>
         <p>This is the main content of the home page. Everything is working correctly!</p>
-        
+
         <div class="contact-info">
             <p>For questions or support, please email me at:</p>
             <p><strong>24f3005146@ds.study.iitm.ac.in</strong></p>
         </div>
 
-        <p>Try navigating to a non-existent page (e.g., <a href="/not-a-real-page">/not-a-real-page</a>) to see the custom 404 page in action.</p>
+        <p>Alternatively, you can reach me directly at 24f3005146@ds.study.iitm.ac.in.</p>
+
+        <p>Try visiting a non-existent page (e.g., 
+            <a href="/not-a-real-page">/not-a-real-page</a>) to see the custom 404 page in action.
+        </p>
     </main>
+
     <footer>
-        <p>Contact (also listed here): 24f3005146@ds.study.iitm.ac.in</p>
+        <p>Contact email: 24f3005146@ds.study.iitm.ac.in</p>
     </footer>
 </body>
 </html>
