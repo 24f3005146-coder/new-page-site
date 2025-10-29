@@ -13,6 +13,22 @@
             background-color: #f7f9fc;
             color: #2c3e50;
         }
+        nav {
+            background-color: #3498db;
+            padding: 12px 0;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ecf0f1;
+        }
         .container {
             max-width: 650px;
             margin: 0 auto;
@@ -57,10 +73,20 @@
         .home-link a:hover {
             background-color: #2980b9;
         }
-        footer { margin-top: 30px; font-size: 0.9em; color: #7f8c8d; }
+        footer {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
     </style>
 </head>
 <body>
+
+    <nav>
+        <a href="/">🏠 Home</a>
+        <a href="mailto:24f3005146@ds.study.iitm.ac.in">📧 Contact</a>
+    </nav>
+
     <div class="container">
         <h1>📦 404</h1>
         <h2>Delivery Interrupted! We can't find your page.</h2>
@@ -71,14 +97,14 @@
         </div>
         
         <p class="email-info">
-            Report a broken link here: **24f3005146@ds.study.iitm.ac.in**
+            Report a broken link here: <strong>24f3005146@ds.study.iitm.ac.in</strong>
         </p>
 
         <p class="home-link">
-            <a href="/">Check the Main Hub (Go Home)</a>
+            <a href="/">Return to Main Hub</a>
         </p>
-
     </div>
+
     <footer>
         <p>Email (for confirmation of requirement): 24f3005146@ds.study.iitm.ac.in</p>
     </footer>
